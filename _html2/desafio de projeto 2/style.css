@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #CD853F;
+    padding: 10px 20px 0px;
+    color: white;
+}
+.header {
+    background-color: #f1f1f1;
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #8B0000;
+    min-height: 150px;
+    color: white;
+}
+img{
+    width: 430px;
+}
+#contato{
+    text-align: center;
+}
+#copyright{
+    text-align: center;
+}
+#info{
+    width: 400px;
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:hover td{
+    background-color: lightgray;
+    cursor: pointer;
+}
+#contact{
+    width: 250px;
+}
+.informacoes-contato{
+    text-align: left;
+}
+.row{
+    margin-bottom: 5px;
+    text-align: left;
+}
+fieldset{
+    border-radius: 3px;
+}
+button{
+    margin-top: 4px;
+    margin-right: 3px;
+}

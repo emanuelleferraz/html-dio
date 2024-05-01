@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <!-- EXEMPLO 1 -->
+    <!-- <form name="signup" onsubmit="alert('Enviei o formulário');" autocomplete="on" target="_blank" method="POST" action="#">
+        Nome: <input type="text" name="name"><br>
+        Idade: <input type="number" name="age"><br>
+        Senha: <input type="password" name="password"><br>
+        <button type="submit">Enviar</button>
+    </form> -->
+
+    <!--Tipos de Input-->
+    <!-- <form >
+        <label>Text:</label><input type="text"><br>
+        <label>Number</label><input type="number" min="0" max="99" step="5"><br>
+        <label>Range:</label><input type="range" min="0" max="100" value="90"><br>
+        <label>Color:</label><input type="color"><br>
+        <label>Email:</label><input type="email"><br>
+        <label>URL:</label><input type="url"><br>
+        <label>Date:</label><input type="date"><br>
+        <label>Week:</label><input type="week"><br> --> <!--Só funciona o chrome e add-->
+        <!-- <label>Month:</label><input type="month"><br>
+        <label>Checkbox:</label><input type="checkbox"><input type="checkbox"><br>
+        <label>Radio:</label><input type="radio" name="aceita"><input type="radio" name="aceita"><br>
+        <label>Hidden:</label><input type="hidden"><br>
+        <label>File:</label><input type="file" multiple><br>
+        <label>Search:</label><input type="search"><br>
+        <label>Button:</label><input type="submit" value="Enviar"><br>--> <!-- Semanticamente falando é melhor usar a tag button <button></button> -->
+    <!-- </form> -->
+
+    <!--Exemplo 2 - Select box -->
+    <form onsubmit="" method="get">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Cargo:</label>
+        <select name="role"> <!--Se quiser que seja selecionado mais cargos insira o atributo multiple-->
+            <option value="">Selecione o cargo:</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select><br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <label >Mensagem:</label>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
