@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML 5 - Estrutural</title>
+    <style>
+        nav ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        nav ul li a{
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover{
+            color: white;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <!--Main não pode ser filha de outras tags como header, footer, article e só pode ser usada uma vez no código-->
+    <main>
+        <section></section> <!--É a representação de uma seção genérica-->
+        <aside></aside> <!--Tag de separação.Um assunto que não tem a ver com a página principal-->
+        <!--Links de navegação. É utilizada listas não ordenadas-->
+        <nav>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="tel: +553398762346">Telefone</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer></footer>
+</body>
+</html>
